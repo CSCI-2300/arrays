@@ -9,7 +9,7 @@ public class Example {
             values[i] = i;
         }
         for (int i = 0; i < values.length; i++) {
-            System.out.print(i+" ");
+            System.out.print(values[i]+" ");
         }
         System.out.println("");
         System.out.println("Length of values array is: " + values.length);
